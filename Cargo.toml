@@ -1,0 +1,13 @@
+[package]
+name = "rs-trie-aho"
+version = "1.0.0"
+edition = "2021"
+description = "Aho-Corasick trie with failure links for multi-pattern search"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-trie-aho"
+keywords = ["rust", "aho-corasick", "trie", "string", "data-structures"]
+
+[[bin]]
+name = "rs_trie_aho"
+path = "main.rs"
